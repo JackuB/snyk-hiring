@@ -1,0 +1,42 @@
+{
+  "name": "dependencimator2000",
+  "version": "1.0.0",
+  "description": "API and frontend for listing npm dependencies",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "ava && cypress run",
+    "ava": "ava",
+    "cypress": "cypress open"
+  },
+  "author": "JackuB",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/runtime-corejs2": "^7.4.2",
+    "express": "^4.16.4",
+    "lodash": "^4.17.11",
+    "pacote": "^9.5.0",
+    "vue-hot-reload-api": "^2.3.3",
+    "@babel/core": "^7.4.0",
+    "@babel/plugin-transform-runtime": "^7.4.0",
+    "@vue/component-compiler-utils": "^2.6.0",
+    "parcel-bundler": "^1.12.3",
+    "sass": "^1.17.3",
+    "vue": "^2.6.10",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "ava": {
+    "require": [
+      "esm"
+    ]
+  },
+  "devDependencies": {
+    "@babel/polyfill": "^7.4.0",
+    "@babel/register": "^7.4.0",
+    "ava": "^1.4.1",
+    "cypress": "^3.2.0",
+    "esm": "^3.2.22",
+    "mocha": "^6.0.2",
+    "sinon": "^7.3.1"
+  }
+}
