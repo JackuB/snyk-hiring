@@ -1,0 +1,42 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-450202:
+    - parcel-bundler > @babel/plugin-transform-modules-commonjs > @babel/helper-simple-access > @babel/types > lodash:
+        patched: '2019-07-03T21:32:54.629Z'
+    - lodash:
+        patched: '2019-07-03T21:32:54.629Z'
+    - parcel-bundler > @babel/types > lodash:
+        patched: '2019-07-03T21:32:54.629Z'
+    - '@babel/core > @babel/types > lodash':
+        patched: '2019-07-03T21:32:54.629Z'
+    - parcel-bundler > @babel/core > @babel/traverse > lodash:
+        patched: '2019-07-03T21:32:54.629Z'
+    - '@babel/core > @babel/traverse > @babel/types > lodash':
+        patched: '2019-07-03T21:32:54.629Z'
+    - parcel-bundler > htmlnano > uncss > lodash:
+        patched: '2019-07-03T21:32:54.629Z'
+    - parcel-bundler > babylon-walk > babel-types > lodash:
+        patched: '2019-07-03T21:32:54.629Z'
+    - '@babel/core > @babel/traverse > @babel/helper-function-name > @babel/types > lodash':
+        patched: '2019-07-03T21:32:54.629Z'
+    - '@babel/core > lodash':
+        patched: '2019-07-03T21:32:54.629Z'
+    - '@babel/core > @babel/helpers > @babel/traverse > @babel/generator > @babel/types > lodash':
+        patched: '2019-07-03T21:32:54.629Z'
+    - parcel-bundler > @babel/core > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2019-07-03T21:32:54.629Z'
+    - parcel-bundler > @babel/preset-env > @babel/plugin-transform-modules-amd > @babel/helper-module-transforms > @babel/helper-simple-access > @babel/types > lodash:
+        patched: '2019-07-03T21:32:54.629Z'
+    - '@babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash':
+        patched: '2019-07-03T21:32:54.629Z'
+    - parcel-bundler > htmlnano > uncss > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2019-07-03T21:32:54.629Z'
+    - parcel-bundler > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-replace-supers > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-03T21:32:54.629Z'
+    - parcel-bundler > @babel/preset-env > @babel/plugin-transform-async-to-generator > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-03T21:32:54.629Z'
+    - parcel-bundler > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-03T21:32:54.629Z'
