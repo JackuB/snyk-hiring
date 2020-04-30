@@ -7,7 +7,9 @@
     "start": "node index.js",
     "test": "ava && cypress run",
     "ava": "ava",
-    "cypress": "cypress open"
+    "cypress": "cypress open",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "author": "JackuB",
   "license": "MIT",
@@ -23,7 +25,8 @@
     "parcel-bundler": "^1.12.3",
     "sass": "^1.17.3",
     "vue": "^2.6.10",
-    "vue-template-compiler": "^2.6.10"
+    "vue-template-compiler": "^2.6.10",
+    "snyk": "^1.316.1"
   },
   "ava": {
     "require": [
@@ -38,5 +41,6 @@
     "esm": "^3.2.22",
     "mocha": "^6.0.2",
     "sinon": "^7.3.1"
-  }
+  },
+  "snyk": true
 }
