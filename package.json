@@ -14,7 +14,7 @@
   "dependencies": {
     "@babel/runtime-corejs2": "^7.4.2",
     "express": "^4.16.4",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.21",
     "pacote": "^9.5.0",
     "vue-hot-reload-api": "^2.3.3",
     "@babel/core": "^7.4.0",
